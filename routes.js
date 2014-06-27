@@ -28,6 +28,8 @@ project.name = projectName
 
 var rsync = new Rsync().flags('urlv').source(__dirname + "/").destination(__dirname + '/../' + projectName)
 
+console.log('[routes] rsyncing')
+
 rsync.execute(function(error, code, cmd) {
 	if (error) {
 		console.error('broken', error, code, cmd)

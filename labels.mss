@@ -481,7 +481,7 @@
   marker-allow-overlap:true;  
   text-name:'[name]';
   text-face-name:@sans_bold;
-  text-placement: point;
+  text-placement-type: simple;
   text-fill:@road_text;
   text-halo-fill:@road_halo;
   text-halo-radius:2;
@@ -490,7 +490,9 @@
   text-allow-overlap: true;
   text-min-distance: 70;
   text-dx: 22;
-  text-horizontal-alignment: right;
+  text-placements: 'W,E';
+  text-avoid-edges: true;
+ /* text-horizontal-alignment: right;*/
 }
 
 
