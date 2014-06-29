@@ -147,18 +147,3 @@ Map { font-directory: url(./fonts); }
 /* ****************************************************************** */
 
 @audiowalk_route:#168;
-
-
-
-#audiowalk-route {
-  line-width:1;
-  line-color:#168;
-}
-
-
-#first-points {
-  marker-width:6;
-  marker-fill:#f45;
-  marker-line-color:#813;
-  marker-allow-overlap:true;
-}

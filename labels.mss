@@ -485,22 +485,20 @@
   text-fill:@road_text;
   text-halo-fill:@road_halo;
   text-halo-radius:2;
-  text-size: 24;
+  text-size: 28;
   text-transform: uppercase;
   text-allow-overlap: true;
   text-min-distance: 70;
   text-dx: 22;
-  text-placements: 'W,E';
+  text-placements: 'W,E,N,S,NE,NW,SO,SW';
   text-avoid-edges: true;
- /* text-horizontal-alignment: right;*/
+  text-wrap-width: 100;
 }
-
-
 .audiowalk-route {
   line-width: 5;
   line-cap: round;
   line-join: round;
-  line-smooth: 0.8;
+  line-smooth: 0;
   line-opacity: 0.8;
   line-dasharray: 10,10;
   line-color: @audiowalk_route;

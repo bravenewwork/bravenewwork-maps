@@ -1,19 +1,19 @@
 {
   "bounds": [
-    13.3931,
+    13.3954,
     52.526,
-    13.4163,
-    52.532
+    13.4148,
+    52.5315
   ],
   "center": [
-    13.4013,
-    52.5298,
-    16
+    13.4014,
+    52.5297,
+    18
   ],
   "format": "png",
   "interactivity": false,
-  "minzoom": 0,
-  "maxzoom": 18,
+  "minzoom": 18,
+  "maxzoom": 20,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "palette.mss",
@@ -623,7 +623,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "rmla"
+      "name": "rmla",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -647,7 +648,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "sorm"
+      "name": "sorm",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -668,7 +670,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "lalh"
+      "name": "lalh",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -692,7 +695,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "lhbh"
+      "name": "lhbh",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -713,7 +717,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "bhgf"
+      "name": "bhgf",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -734,7 +739,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "cawg"
+      "name": "cawg",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -744,10 +750,10 @@
         13.411009,
         52.5275
       ],
-      "id": "wgvb",
+      "id": "fzvb",
       "class": "audiowalk-route",
       "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/WG - VB.gpx",
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/FZ - VB.gpx",
         "layer": "tracks"
       },
       "srs-name": "autodetect",
@@ -755,307 +761,8 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "wgvb"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        13.412992,
-        52.525425,
-        13.414512,
-        52.526943
-      ],
-      "id": "adkl",
-      "class": "audiowalk-route",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/AD - KL.gpx",
-        "layer": "tracks"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "tracks"
-      },
-      "name": "adkl"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        13.403019,
-        52.527496,
-        13.404984,
-        52.528263
-      ],
-      "id": "gfca",
-      "class": "audiowalk-route",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/GF - CA.gpx",
-        "layer": "tracks"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "tracks"
-      },
-      "name": "gfca"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        13.412992,
-        52.526649,
-        13.415134,
-        52.527225
-      ],
-      "id": "klso",
-      "class": "audiowalk-route",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/KL - SO.gpx",
-        "layer": "tracks"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "tracks"
-      },
-      "name": "klso"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.396340000000002,
-        52.52857,
-        13.396340000000002,
-        52.52857
-      ],
-      "id": "la",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/LA.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "la"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.4033,
-        52.52813,
-        13.4033,
-        52.52813
-      ],
-      "id": "gf",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/GF.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "gf"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.40288,
-        52.52894,
-        13.40288,
-        52.52894
-      ],
-      "id": "bh",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/BH.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "bh"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.400003,
-        52.531072,
-        13.400003,
-        52.531072
-      ],
-      "id": "rm",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/RM.gpx",
-        "layer": "waypoints",
-        "id": "rm",
-        "project": "BraveNewWorkBerlinOSM",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "rm"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.3984,
-        52.52899,
-        13.3984,
-        52.52899
-      ],
-      "id": "lh",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/LH.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "lh"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.41336,
-        52.52549,
-        13.41336,
-        52.52549
-      ],
-      "id": "ad",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/AD.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "ad"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.401726,
-        52.529557,
-        13.401726,
-        52.529557
-      ],
-      "id": "so",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/SO.gpx",
-        "id": "so",
-        "project": "BraveNewWorkBerlinOSM",
-        "srs": "",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "so"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.41518,
-        52.52689,
-        13.41518,
-        52.52689
-      ],
-      "id": "sh",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/SH.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "sh"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.41102,
-        52.52593,
-        13.41102,
-        52.52593
-      ],
-      "id": "vb",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/VB.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "vb"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.405850000000001,
-        52.52744,
-        13.405850000000001,
-        52.52744
-      ],
-      "id": "wg",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/WG.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "wg"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        13.40503,
-        52.52791,
-        13.40503,
-        52.52791
-      ],
-      "id": "ca",
-      "class": "audiowalk-marker",
-      "Datasource": {
-        "file": "/Users/lenni/Documents/Brave New Work - Tracks/CA.gpx",
-        "layer": "waypoints"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "layer": "waypoints"
-      },
-      "name": "ca"
+      "name": "fzvb",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -1076,12 +783,345 @@
       "advanced": {
         "layer": "tracks"
       },
-      "name": "vbad"
+      "name": "vbad",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        13.412992,
+        52.525425,
+        13.414512,
+        52.526943
+      ],
+      "id": "adkl",
+      "class": "audiowalk-route",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/AD - KL.gpx",
+        "layer": "tracks"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "tracks"
+      },
+      "name": "adkl",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        13.403019,
+        52.527496,
+        13.404984,
+        52.528263
+      ],
+      "id": "gfca",
+      "class": "audiowalk-route",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/GF - CA.gpx",
+        "layer": "tracks"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "tracks"
+      },
+      "name": "gfca",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        13.412992,
+        52.526649,
+        13.415134,
+        52.527225
+      ],
+      "id": "klsh",
+      "class": "audiowalk-route",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/KL - SH.gpx",
+        "layer": "tracks",
+        "id": "klso",
+        "project": "BraveNewWorkBerlinOSM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "tracks"
+      },
+      "name": "klsh",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.412879000000002,
+        52.525463,
+        13.413396,
+        52.526654
+      ],
+      "id": "adkl-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/AD - KL.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "adkl-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.402914000000003,
+        52.528198,
+        13.403531,
+        52.529025
+      ],
+      "id": "bhgf-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/BH - GF.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "bhgf-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.404872,
+        52.527528,
+        13.405883000000001,
+        52.528072
+      ],
+      "id": "cawg-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/CA - WG.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "cawg-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.407275,
+        52.525938,
+        13.410995,
+        52.527066
+      ],
+      "id": "fzvb-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/FZ - VB.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "fzvb-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.403547,
+        52.528024,
+        13.404845,
+        52.528199
+      ],
+      "id": "gfca-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/GF - CA.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "gfca-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.412871,
+        52.526632,
+        13.415112,
+        52.526973
+      ],
+      "id": "klsh-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/KL - SH.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "klsh-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.396205,
+        52.528616,
+        13.398539000000001,
+        52.528907
+      ],
+      "id": "lalh-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/LA - LH.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "lalh-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.398573,
+        52.528931,
+        13.402967,
+        52.529032
+      ],
+      "id": "lhbh-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/LH - BH.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "lhbh-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.396193,
+        52.528622,
+        13.400003,
+        52.531072
+      ],
+      "id": "rmla-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/RM - LA.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "rmla-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.400003,
+        52.52957,
+        13.401741,
+        52.531072
+      ],
+      "id": "sorm-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/SO - RM.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "sorm-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.410989,
+        52.525473,
+        13.413371,
+        52.525944
+      ],
+      "id": "vbad-waypoints",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/VB - AD.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "vbad-waypoints",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.401726,
+        52.529557,
+        13.401726,
+        52.529557
+      ],
+      "id": "so",
+      "class": "audiowalk-marker",
+      "Datasource": {
+        "file": "/Users/lenni/Documents/Brave New Work - Tracks/SO.gpx",
+        "layer": "waypoints"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "layer": "waypoints"
+      },
+      "name": "so"
     }
   ],
   "scale": 1,
   "metatile": 15,
   "attribution": "Data © OpenStreetMap (and) contributors, CC-BY-SA",
   "description": "",
-  "name": "Brave New Work - Berlin OSM"
+  "name": "Brave New Work - Berlin"
 }

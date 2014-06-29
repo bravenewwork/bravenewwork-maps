@@ -3,9 +3,9 @@
 var fs = require('fs'),
 	project = JSON.parse(fs.readFileSync(__dirname + '/project.mml'))
 	route = process.argv[2],
-	start = route.substring(0,2),
+	waypoints = route + '-waypoints',
 	Rsync = require('rsync'),
-	end = route.substring(2,4),
+	
 	projectName = "bnw-" + route
 
 if (!route) {
@@ -13,12 +13,12 @@ if (!route) {
 	process.exit(1)
 }
 else {
-	console.log('[routes] rendering', start, 'to', end)
+	console.log('[routes] rendering', route)
 }
 
 for (var i = project.Layer.length - 1; i >= 0; i--) {
 	if (['audiowalk-marker', 'audiowalk-route'].indexOf(project.Layer[i]["class"]) >= 0) {
-		var status = (start == project.Layer[i].id || end == project.Layer[i].id || route == project.Layer[i].id) ? 'on' : 'off'
+		var status = (waypoints == project.Layer[i].id || route == project.Layer[i].id) ? 'on' : 'off'
 	
 		project.Layer[i].status = status
 	}
